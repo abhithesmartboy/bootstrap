@@ -1,0 +1,97 @@
+        body {
+            font-family: 'Roboto', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 100vh;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        .typed-text {
+            color: #ffdd57;
+            font-weight: bold;
+        }
+
+        /* Floating Shapes */
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.4;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .shape.circle {
+            width: 100px;
+            height: 100px;
+            background: #ffdd57;
+        }
+
+        .shape.triangle {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid #ff6f61;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-30px) rotate(180deg);
+            }
+
+            100% {
+                transform: translateY(0) rotate(360deg);
+            }
+        }
+
+        /* Sections */
+        .section {
+            padding: 80px 0;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        /* Buttons */
+        .btn-gradient {
+            background: linear-gradient(45deg, #ff6f61, #ffdd57);
+            color: white;
+            border: none;
+        }
+
+        .btn-gradient:hover {
+            opacity: 0.85;
+        }
+
+        /* Contact form */
+        .form-control:focus {
+            border-color: #2575fc;
+            box-shadow: 0 0 5px #2575fc;
+        }
+
+        footer {
+            background: #222;
+            color: #fff;
+            padding: 20px 0;
+        }
