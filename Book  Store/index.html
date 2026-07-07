@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Store</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/book-1.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- ================= HEADER ================= -->
+        <!-- HEADER -->
+        <div class="container-fluid">
+            <div class="row px-3 py-3">
+                <div class="col-12">
+                    <div class="header-1 d-flex flex-wrap align-items-center justify-content-between gap-3">
+
+                        <a href="/" class="logo">
+                            <img src="./images/vidya1.webp" height="60" class="img-fluid">
+                        </a>
+
+                        <form class="search-form flex-grow-1 mx-3">
+                            <input type="search" placeholder="search here...">
+                            <label class="fas fa-search"></label>
+                        </form>
+
+                        <div class="icons d-flex gap-3">
+                            <a class="fas fa-heart"></a>
+                            <a class="fas fa-shopping-cart"></a>
+                            <div class="fas fa-user"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= HEADER END ================= -->
+
+
+        <!-- ================= NAVBAR ================= -->
+        <!-- NAVBAR -->
+        <div class="container-fluid bg-danger">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-custom">
+                        <div class="container">
+
+                            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="nav">
+                                <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item"><a class="nav-link">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link">Category</a></li>
+                                    <li class="nav-item"><a class="nav-link">About</a></li>
+                                    <li class="nav-item"><a class="nav-link">Contact</a></li>
+                                    <li class="nav-item"><a class="nav-link">Register</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= NAVBAR END ================= -->
+
+
+        <!-- ================= HERO SECTION ================= -->
+        <!-- HERO -->
+        <div class="container-fluid bg-light">
+            <div class="row">
+                <div class="col-12">
+                    <section class="home">
+                        <div class="hero-wrap d-flex flex-wrap align-items-center">
+
+                            <div class="hero-text col-12 col-md-6">
+                                <h3>Upto 75% off</h3>
+                                <p>Buy books & get free delivery.</p>
+                                <a class="btn">Shop Now</a>
+                            </div>
+
+                            <div class="css-slider col-12 col-md-6">
+                                <div class="slide-track">
+                                    <div class="slide"><img src="/static/image/book-1.png" class="img-fluid"></div>
+                                    <div class="slide"><img src="/static/image/book-2.png" class="img-fluid"></div>
+                                    <div class="slide"><img src="/static/image/book-3.png" class="img-fluid"></div>
+                                </div>
+                                <img src="/static/image/stand.png" class="stand img-fluid">
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= HERO END ================= -->
+
+
+        <!-- ================= ICON SECTION ================= -->
+        <div class="row">
+            <div class="col-sm-12">
+                <section class="icons-container">
+
+                    <div class="icon-box">
+                        <i class="fas fa-shipping-fast"></i>
+                        <div>
+                            <h3>free shipping</h3>
+                            <p>order over ₹100</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-box">
+                        <i class="fas fa-lock"></i>
+                        <div>
+                            <h3>secure payment</h3>
+                            <p>100% secure payment</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-box">
+                        <i class="fas fa-redo-alt"></i>
+                        <div>
+                            <h3>easy returns</h3>
+                            <p>10 days returns</p>
+                        </div>
+                    </div>
+
+                    <div class="icon-box">
+                        <i class="fas fa-headset"></i>
+                        <div>
+                            <h3>24/7 support</h3>
+                            <p>call us anytime</p>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+        <!-- ================= ICON END ================= -->
+
+
+        <!-- ================= FEATURED BOOKS ================= -->
+        <div class="row">
+            <div class="col-sm-12">
+
+                <section class="featured">
+                    <h1 class="section-title"><span>featured books</span></h1>
+
+                    <div class="row">
+                        <div class="col-sm-10 mx-auto">
+
+                            <div class="featured-slider">
+                                <div class="featured-track">
+
+                                    <!-- 8 cards (original) -->
+                                    <!-- repeat same structure -->
+
+                                    <div class="featured-card">
+                                        <div class="image">
+                                            <img src="/static/image/book-1.png">
+                                            <div class="icons">
+                                                <a href="#"><i class="fas fa-eye"></i></a>
+                                                <a href="#"><i class="fas fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <h3>The Art City</h3>
+                                            <div class="price">₹199 <span>₹299</span></div>
+                                            <a href="#" class="btn">add to cart</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- बाक़ी 7 cards same pattern में -->
+                                    <!-- (तुम जैसे भेजे थे वही) -->
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+        <!-- ================= FEATURED END ================= -->
+
+
+        <!-- ================= NEWSLETTER ================= -->
+        <section class="newsletter">
+            <div class="newsletter-box">
+                <h3>subscribe for latest updates</h3>
+                <form>
+                    <input type="email" placeholder="enter your email" required>
+                    <button class="btn">subscribe</button>
+                </form>
+            </div>
+        </section>
+        <!-- ================= NEWSLETTER END ================= -->
+
+
+        <!-- ================= ARRIVALS ================= -->
+        <div class="row">
+            <div class="col-sm-12">
+
+                <section class="arrivals">
+                    <h1 class="section-title"><span>new arrivals</span></h1>
+
+                    <div class="row">
+                        <div class="col-sm-3 col-6">…card…</div>
+                        <div class="col-sm-3 col-6">…card…</div>
+                        <div class="col-sm-3 col-6">…card…</div>
+                        <div class="col-sm-3 col-6">…card…</div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <!-- ================= ARRIVALS END ================= -->
+
+
+        <!-- ================= DEAL ================= -->
+        <section class="deal">
+            <div class="deal-container">
+                <div class="deal-content">
+                    <h3>Deal Of The Day</h3>
+                    <h1>Upto 50% off</h1>
+                    <p>Good news for you, buy books on weekend & get discount.</p>
+                    <a href="#" class="btn">Shop now</a>
+                </div>
+
+                <div class="deal-image">
+                    <img src="/static/image/deal-img.jpg">
+                </div>
+            </div>
+        </section>
+        <!-- ================= DEAL END ================= -->
+
+
+        <!-- ================= REVIEWS ================= -->
+        <section class="reviews">
+            <h1 class="section-title"><span>client's reviews</span></h1>
+
+            <div class="row">
+                <div class="col-sm-4">…review…</div>
+                <div class="col-sm-4">…review…</div>
+                <div class="col-sm-4">…review…</div>
+            </div>
+        </section>
+        <!-- ================= REVIEWS END ================= -->
+
+
+        <!-- ================= BLOGS ================= -->
+        <section class="blogs">
+            <h1 class="section-title"><span>our blogs</span></h1>
+
+            <div class="row">
+                <div class="col-sm-4">…blog…</div>
+                <div class="col-sm-4">…blog…</div>
+                <div class="col-sm-4">…blog…</div>
+            </div>
+        </section>
+        <!-- ================= BLOGS END ================= -->
+
+
+        <!-- ================= FOOTER ================= -->
+        <!-- FOOTER -->
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <h3>Locations</h3>
+                        <a>India</a>
+                        <a>USA</a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <h3>Quick Links</h3>
+                        <a>Home</a>
+                        <a>About</a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <h3>Extra</h3>
+                        <a>Policy</a>
+                        <a>Services</a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <h3>Contact</h3>
+                        <a>+91 7376650213</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= FOOTER END ================= -->
+
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
