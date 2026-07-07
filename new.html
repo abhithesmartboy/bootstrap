@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google Services Grid</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.outer {
+  width: 1250px;
+  height: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 15px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* MAIN CARD */
+.main {
+  background-color: #fff;
+  color: #000;
+  grid-column: span 2;
+  grid-row: span 2;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.main h2 {
+  font-size: 26px;
+  margin-top: 80px;
+}
+
+.main p {
+  font-size: 15px;
+  color: #555;
+  margin-top: 15px;
+  width: 80%;
+}
+
+.main .btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* COLORS like the image */
+.gmail { background-color: #b3d4fc; color: #000; }
+.maps { background-color: #fbbc05; color: #000; }
+.blogger { background-color: #e45b3a; }
+.chrome { background-color: #db4437; }
+.news { background-color: #9ed6c5; color: #000; }
+.android { background-color: #8bc34a; color: #000; }
+.music { background-color: #f4d35e; color: #000; }
+.earth { background-color: #4285f4; }
+.search { background-color: #4a90e2; }
+.youtube { background-color: #ea4335; }
+
+/* ICON STYLE */
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="outer">
+  <div class="card main">
+    <button class="btn">Upgrade to Google+</button>
+    <h2>Get more out of Google by using Google+</h2>
+    <p>Whether you're using Gmail, Search, YouTube, Maps, or Blogger, Google+ gives you new ways to share the right things with the right people.</p>
+  </div>
+
+  <div class="card gmail">
+    <div class="icon">✉️</div>
+    <h3>Gmail »</h3>
+    <p>Video Chat with up to nine people at once, find emails from the people you care about, share photos effortlessly and more.</p>
+  </div>
+
+  <div class="card maps">
+    <div class="icon">📍</div>
+    <h3>Maps »</h3>
+    <p>Send directions and share the places you love with just the right people, right from Google Maps.</p>
+  </div>
+
+  <div class="card blogger">
+    <div class="icon">🅱️</div>
+    <h3>Blogger »</h3>
+    <p>Easily share your posts on Google+ so that you can expand the audience for your blog.</p>
+  </div>
+
+  <div class="card chrome">
+    <div class="icon">🌐</div>
+    <h3>Chrome »</h3>
+    <p>Recommend sites, share pages, and always stay up-to-date with the people in your Google+ circles.</p>
+  </div>
+
+  <div class="card news">
+    <div class="icon">📰</div>
+    <h3>News »</h3>
+    <p>Get the latest from your favorite authors, and see the articles your friends are sharing right in Google News.</p>
+  </div>
+
+  <div class="card android">
+    <div class="icon">🤖</div>
+    <h3>Android »</h3>
+    <p>Get photos that upload as you take them, group chats instead of multiple texts, and video chats with friends.</p>
+  </div>
+
+  <div class="card music">
+    <div class="icon">🎧</div>
+    <h3>Music »</h3>
+    <p>Give the people in your Google+ circles a free listen to the songs you buy through Google Music.</p>
+  </div>
+
+  <div class="card earth">
+    <div class="icon">🌍</div>
+    <h3>Earth »</h3>
+    <p>Share images of the places you visit in Google Earth to just the right people using Google+.</p>
+  </div>
+
+  <div class="card search">
+    <div class="icon">🔍</div>
+    <h3>Search »</h3>
+    <p>Search everything on the web, plus your photos, posts from your circles, and the things your friends have shared with you.</p>
+  </div>
+
+  <div class="card youtube">
+    <div class="icon">▶️</div>
+    <h3>Youtube »</h3>
+    <p>See which videos your friends are sharing and watch any video with up to nine friends at once.</p>
+  </div>
+</div>
+
+</body>
+</html>
